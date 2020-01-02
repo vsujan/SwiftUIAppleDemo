@@ -19,6 +19,8 @@
 		0E5B3B2323BDC5AF00168202 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B3B2223BDC5AF00168202 /* HikeDetail.swift */; };
 		0E5B3B2523BDC61300168202 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E5B3B2423BDC61300168202 /* hikeData.json */; };
 		0E5B3B2723BDC6A500168202 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B3B2623BDC6A500168202 /* GraphCapsule.swift */; };
+		0E5B3B2923BDD48300168202 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B3B2823BDD48300168202 /* HomeView.swift */; };
+		0E5B3B2B23BDD55900168202 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B3B2A23BDD55900168202 /* CategoryRow.swift */; };
 		0E65D17A23BB6D9100864150 /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E65D16D23BB6D9000864150 /* chincoteague.jpg */; };
 		0E65D17B23BB6D9100864150 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E65D16E23BB6D9000864150 /* charleyrivers.jpg */; };
 		0E65D17C23BB6D9100864150 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E65D16F23BB6D9000864150 /* rainbowlake.jpg */; };
@@ -59,6 +61,8 @@
 		0E5B3B2223BDC5AF00168202 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		0E5B3B2423BDC61300168202 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		0E5B3B2623BDC6A500168202 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		0E5B3B2823BDD48300168202 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0E5B3B2A23BDD55900168202 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		0E65D16D23BB6D9000864150 /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
 		0E65D16E23BB6D9000864150 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		0E65D16F23BB6D9000864150 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
@@ -134,6 +138,7 @@
 				0E91E95723BB56AB00222094 /* SceneDelegate.swift */,
 				0E279FFB23BB64AD005EDF87 /* LandmarkList.swift */,
 				0E91E95923BB56AB00222094 /* LandmarkDetail.swift */,
+				0E5B3B2823BDD48300168202 /* HomeView.swift */,
 				0E5B3B1C23BDC53F00168202 /* HikeView.swift */,
 				0E5B3B2223BDC5AF00168202 /* HikeDetail.swift */,
 				0EEB89D923BB6223008AB4BA /* Resources */,
@@ -170,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				0EEB89D123BB616C008AB4BA /* LandmarkRow.swift */,
+				0E5B3B2A23BDD55900168202 /* CategoryRow.swift */,
 				0E5B3B2623BDC6A500168202 /* GraphCapsule.swift */,
 				0E5B3B1B23BDC48900168202 /* Badge */,
 				0E91E96923BB58AB00222094 /* CircleImage.swift */,
@@ -285,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5B3B2B23BDD55900168202 /* CategoryRow.swift in Sources */,
 				0E5B3B2723BDC6A500168202 /* GraphCapsule.swift in Sources */,
 				0E5B3B1F23BDC56400168202 /* Hike.swift in Sources */,
 				0E5B3B2123BDC58900168202 /* HikeGraph.swift in Sources */,
@@ -300,6 +307,7 @@
 				0E5B3B1823BDC17A00168202 /* BadgeSymbol.swift in Sources */,
 				0E5B3B1A23BDC1F700168202 /* RotatedBadgeSymbol.swift in Sources */,
 				0E279FFC23BB64AD005EDF87 /* LandmarkList.swift in Sources */,
+				0E5B3B2923BDD48300168202 /* HomeView.swift in Sources */,
 				0E91E96C23BB598600222094 /* MapView.swift in Sources */,
 				0E91E95823BB56AB00222094 /* SceneDelegate.swift in Sources */,
 				0E91E95A23BB56AB00222094 /* LandmarkDetail.swift in Sources */,
