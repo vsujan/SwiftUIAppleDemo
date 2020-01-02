@@ -18,5 +18,5 @@
 
 > Framework Integration
 
-1) Interfacing with UIKit -> [InterfacingWithUIKits(https://github.com/vsujan/SwiftUIAppleDemo/tree/InterfacingWithUIKits)
+1) Interfacing with UIKit -> [InterfacingWithUIKits](https://github.com/vsujan/SwiftUIAppleDemo/tree/InterfacingWithUIKits)
 2) Creating a watchOS App -> [CreatingAWatchOSApp](https://github.com/vsujan/SwiftUIAppleDemo/tree/CreatingAWatchOSApp)
