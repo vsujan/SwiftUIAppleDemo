@@ -6,9 +6,10 @@
 //  Copyright © 2019 Sujan Vaidya. All rights reserved.
 //
 
-import UIKit
-import SwiftUI
+import Foundation
 import CoreLocation
+import SwiftUI
+import ImageIO
 
 let landmarkData: [Landmark] = load("landmarkData.json")
 let features = landmarkData.filter { $0.isFeatured }
